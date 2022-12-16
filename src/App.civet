@@ -1,0 +1,16 @@
+import type { Component } from 'solid-js'
+logo from './logo.svg'
+styles from './App.module.css'
+
+export default function App()
+  <div class=styles.App>
+    <header class=styles.header>
+      <img src=logo class=styles.logo alt='logo' />
+      <p> Edit <code>src/App.tsx</code> and save to reload.
+      <a
+        class=styles.link
+        href='https://github.com/solidjs/solid'
+        target='_blank'
+        rel='noopener noreferrer'
+      >
+        Learn Solid
